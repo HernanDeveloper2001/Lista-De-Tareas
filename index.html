@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de tareas</title>
+</head>
+<body>
+    <main class="contenedor">
+        <h1 class="titulo">Lista de tareas</h1>
+        <span class="alerta">Tienes que ingresar un nombre</span>
+        <section class="contenedor-lista">
+            <div class="lista-carta">
+                <input class="lista-dato" type="text" placeholder="Ingresa una tarea">
+                <button class="lista-boton">Enter</button>
+            </div>
+            <div class="lista-tareas-agregadas">
+            </div>
+            <template id="template-tareas">
+                <div class="tareas">
+                    <p class="tareas-titulo">Nombre tarea</p>
+                    <button class="tareas-boton">Quitar</button>
+                </div>
+            </template>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2-beta.0/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

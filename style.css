@@ -1,0 +1,102 @@
+.contenedor {
+    background: #cccddd;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+}
+
+.alerta {
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: rgb(255, 0, 0);
+    display: none;
+}
+
+.contenedor-lista {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid #000000;
+    padding: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lista-carta {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.lista-dato {
+    width: 90%;
+    padding: 18px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lista-boton {
+    padding: 18px;
+    border-radius: 5px;
+    border: 1px solid rgb(110, 231, 110);
+    background-color: rgb(110, 231, 110);
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+.lista-boton:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.lista-tareas-agregadas {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 1rem;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.tareas {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+}
+
+.tareas-titulo {
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tareas-boton {
+    padding: 18px;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid rgb(231, 110, 110);
+    background-color: rgb(231, 110, 110);
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.tareas-boton:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
